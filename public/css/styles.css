@@ -1,9 +1,77 @@
-* {  
-    margin: 0;  
-    padding: 0;  
+* {    
     box-sizing: border-box;  
     font-family: Montserrat;
+    margin: 0;
   }   
 
+  /* HEADER*/
+.header-container-items{
+  padding: 35px;
+}
+.header-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+}
+.header-items li{
+  margin: 10px 10px 0 2px;
+  cursor: pointer;
+}
+
+li.divisor{
+  border-left: 1px solid grey;
+  height: 18px;
+  cursor: none;
+}
+.header-button{
+  position: relative;
+  top: 49px;
+  right: -760px;
+}
+
+.header-button button{
+  border-radius: 2em;
+  border: 1px;
+  background-color: red;
+  padding: 8px 12px;
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+/*MAIN*/
+.main-backgroundimage{
+  background-image: url(https://www.lucat.com.ar/wp-content/uploads/2022/09/Lucat-Turismo_web_02-05-scaled.jpg);
+  background-size: cover;
+  height: 840px;
+}
+
+.main-backgroundimage p{
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 135px;
+}
+.main-div-formulario{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 146px;
+}
+.main-formulario{
+  background-color: #eee;
+  width: 1160px;
+  height: 110px;
+  padding: 15px;
+}
+.main-radiobutton{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
 
 

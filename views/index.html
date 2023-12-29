@@ -15,25 +15,64 @@
 
 <body>
     <header>
-        <div>
-            <ul>
+        <div class="header-container-items">
+            <ul class="header-items">
+                <li cd class="header-button"><button type="button">ARMÁ TU VIAJE AHORA</button></li>
+                <li class="divisor"></li>
                 <li><a>HOME</a></li>
-                <li><a></a>QUIENES SOMOS</a></li>
+                <li class="divisor"></li>
+                <li><a></a>QUIÉNES SOMOS</a></li>
+                <li class="divisor"></li>
                 <li><a></a>DESTINOS</a></li>
+                <li class="divisor"></li>
                 <li><a></a>TÉRMINOS Y CONDICIONES</a></li>
+                <li class="divisor"></li>
                 <li><a></a>CONTACTO</a></li>
                 <li>
                     <a href="https://www.facebook.com/tu_pagina_de_facebook" target="_blank"><i
-                            class="fab fa-facebook-f" style="font-size:20px;color:grey"></i></a>
+                            class="fab fa-facebook-f" style="font-size:20px;color:black"></i></a>
                 </li>
                 <li>
                     <a href="https://www.instagram.com/tu_usuario_de_instagram" target="_blank"><i
-                            class="fab fa-instagram" style="font-size:20px; color:grey"></i></a>
+                            class="fab fa-instagram" style="font-size:20px; color: black"></i></a>
                 </li>
             </ul>
         </div>
     </header>
     <main>
+        <div class="main-backgroundimage">
+            <p>RESERVA TU VUELO</p>
+            <div class="main-div-formulario">
+            <form class="main-formulario">
+                <div class="main-radiobutton">
+                    <input type="radio" id="opcion1" name="opcion" value="opcion1">
+                    <label for="opcion1">Ida y vuelta</label><br>
+
+                    <input type="radio" id="opcion2" name="opcion" value="opcion2">
+                    <label for="opcion2">Solo ida</label><br>
+
+                    <input type="radio" id="opcion3" name="opcion" value="opcion3">
+                    <label for="opcion3">Multidestino</label><br>
+                </div>
+                <div>
+                    <label for="origen">Origen</label>
+                    <input type="text" id="origen" name="origen">
+
+                    <label for="destino">Destino</label>
+                    <input type="text" id="destino" name="destino">
+
+                    <label for="fechaPartida">Partida</label>
+                    <input type="date" id="fechaPartida" name="fechaPartida">
+
+                    <label for="fechallegada">Llegada</label>
+                    <input type="date" id="fechallegada" name="fechallegada">
+
+                    <input type="submit" value="BUSCAR">
+                </div>
+            </form>
+        </div>
+
+        </div>
         <div>
             <section>
                 <img src="">
